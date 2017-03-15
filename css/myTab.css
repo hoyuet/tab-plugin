@@ -1,0 +1,6 @@
+div.mytabs{width: 300px;height: 200px;border: 1px solid red; margin: 0 auto;}
+div.mytabs input.on{background: #407ab8;}
+div.mytabs div{background: #ba54ff;}
+div#mytabs{width: 500px;height: 400px;border: 1px solid red;}
+div#mytabs input.on{background: #a6f7d1;}
+div#mytabs div{background: #cc8a87;}

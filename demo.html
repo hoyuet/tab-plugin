@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>选项卡插件</title>
+<link rel="stylesheet" href="css/myTab.css">
+</head>
+<body>
+	<div class="mytabs">
+		<input type="button" value="1" class="on">
+		<input type="button" value="2">
+		<div>1</div>
+		<div>2</div>
+	</div>
+	<div class="mytabs">
+		<input type="button" value="1" class="on">
+		<input type="button" value="2">
+		<input type="button" value="3">
+		<input type="button" value="4">
+		<input type="button" value="5">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>
+	<div id="mytabs">
+		<input type="button" value="1" class="on">
+		<input type="button" value="2">
+		<input type="button" value="3">
+		<input type="button" value="4">
+		<input type="button" value="5">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+	</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/myTab.js"></script>
+<script>
+$(function(){
+	$('.mytabs').tab();
+	$('#mytabs').tab(50);
+});
+</script>
+</body>
+</html>
